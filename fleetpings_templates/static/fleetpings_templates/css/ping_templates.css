@@ -1,0 +1,30 @@
+/* CSS für Ping Templates */
+
+.ping-templates-panel {
+    margin-bottom: 20px;
+}
+
+.ping-templates-panel .panel-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ping-templates-panel .list-group-item {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 10px 15px;
+}
+
+.ping-templates-panel .list-group-item:hover {
+    background-color: #f5f5f5;
+    text-decoration: none;
+}
+
+.ping-templates-panel .list-group-item i {
+    margin-right: 8px;
+    color: #337ab7;
+}
+
+.ping-templates-panel .list-group-item:hover i {
+    color: #23527c;
+}

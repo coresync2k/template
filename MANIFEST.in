@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+recursive-include fleetpings_templates/static *
+recursive-include fleetpings_templates/templates *
+recursive-include fleetpings_templates/migrations *.py
