@@ -35,7 +35,7 @@ class PingTemplate(models.Model):
     )
     
     fleet_comms = models.ForeignKey(
-        'fleetpings.FleetComms',
+        'fleetpings.FleetComm',
         on_delete=models.SET_NULL,
         null=True,
         blank=True,
